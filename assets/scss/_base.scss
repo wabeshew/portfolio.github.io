@@ -1,0 +1,41 @@
+// ************************************************************
+//  ページ全体の指定（フォント、リンクカラーなど）
+// ************************************************************
+
+body,
+select,
+textarea,
+th,
+td,
+li,
+a,
+input {
+  font-family: "Nunito", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #546e7a;
+  font-size: 16px;
+}
+
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+a,
+span {
+  word-break: break-all;
+}
+
+sup {
+  vertical-align: top;
+}
+
+label {
+  font-size: 16px;
+}
