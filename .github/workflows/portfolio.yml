@@ -17,9 +17,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: '12'
 
       - name: Cache dependencies
         uses: actions/cache@v2
