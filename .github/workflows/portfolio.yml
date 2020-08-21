@@ -37,6 +37,10 @@ jobs:
           npm run build
           npm run export
 
+      - name: README delete
+        run: |
+          rm ./dist/README.md
+
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
